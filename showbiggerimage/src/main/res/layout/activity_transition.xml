@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context=".TransitionActivity">
+    <!--<com.sll.showbiggerimage.MyImageView-->
+        <!--android:id="@+id/iv_myImageView"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--/>-->
+
+
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_myImageView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:transitionName="@string/transition_name"-->
+            <!--/>-->
+
+    <uk.co.senab.photoview.PhotoView
+        android:id="@+id/iv_myImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:transitionName="@string/transition_name"
+        />
+
+
+
+</LinearLayout>
